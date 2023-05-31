@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+.page-width {
+  max-width: 1200px;
+  margin: auto;
+}
+.text-left {
+  text-align: left;
+}
+.quotes {
+  display: flex;
+  gap: 5%;
+  padding: 5rem 2rem;
+  align-items: center;
+}
+
+.quotes-slide {
+  width: 33%;
+  padding: 3rem;
+  background-color: rgb(250, 238, 238);
+  opacity: 0.4;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px 1px #d5d5d5;
+  line-height: 1.75;
+  font-family: "Roboto", sans-serif;
+  transition: all 0.5s ease;
+  outline: none;
+}
+
+.quotes-slide--active {
+  transform: scale(1.2);
+  z-index: 10;
+  opacity: 1;
+  border: none;
+  box-shadow: 1px 0px 10px 5px #eaeaea;
+  color: #222222;
+}
+blockquote {
+  margin: 0;
+}
+cite {
+  font-style: normal;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9rem;
+}
+cite::before {
+  content: "\2014 \0020";
+}
+.icon {
+  width: 25px;
+  height: 25px;
+  fill: #ff890b;
+}
+
+@media screen and (max-width: 768px) {
+  .testimonials {
+    padding: 20px;
+  }
+  .quotes {
+    display: flex;
+    flex-direction: column;
+  }
+  .quotes-slide {
+    width: 100%;
+  }
+}

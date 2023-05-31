@@ -1,0 +1,21 @@
+.footer {
+  text-align: center;
+  background: #363636;
+  color: #fff;
+  font-family: sans-serif;
+}
+.bibi {
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+footer {
+  background: rgb(0, 0, 0);
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #fff;
+  text-decoration: none;
+}

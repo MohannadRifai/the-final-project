@@ -1,0 +1,340 @@
+.contact-info {
+  width: 100%;
+  margin-right: 2.5%;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: left;
+}
+.contact-info-list {
+  list-style: none;
+}
+.contact-info-admin {
+  width: 100%;
+  margin-right: 2.5%;
+  padding: 0;
+  box-sizing: border-box;
+  margin-top: -125px;
+  text-align: left;
+}
+
+.contact-info-list-admin {
+  list-style: none;
+  margin-top: 35px;
+  height: 140px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.email-phoneNumber {
+  display: flex;
+  flex-direction: row;
+}
+.form-input-email-phoneNumber {
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  font-size: 16px;
+  color: white;
+  background-color: #1e1f21;
+}
+.form-input-email-phoneNumber:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.form-group-email {
+  display: flex;
+  flex-direction: row;
+  width: 49%;
+}
+.form-group-phoneNumber {
+  display: flex;
+  flex-direction: row;
+  width: 49%;
+  margin-left: 2%;
+  margin-bottom: 20px;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-size: 20px;
+  font-weight: 600;
+  color: #4a4a4a;
+  margin-bottom: 10px;
+}
+.form-label-message {
+  font-size: 20px;
+  font-weight: 600;
+  color: #4a4a4a;
+  margin-bottom: 5px;
+}
+.form-group-message {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 0px;
+}
+.form-input {
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #1e1f21;
+}
+
+.form-input:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+textarea.form-input {
+  height: 150px;
+}
+
+.form-button {
+  background-color: #be3f3f;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 23px;
+  font-weight: 600;
+  padding: 12px 24px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  width: 30%;
+  margin-right: auto;
+}
+
+.form-button:hover {
+  background-color:rgb(178, 55, 20);
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="tel"]::placeholder,
+textarea::placeholder {
+  color: #999;
+}
+.all-contactUs-space {
+  background-color: #191a1c;
+}
+.contact-form-title {
+  font-size: 37px;
+  text-align: left;
+  height: 80px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.contact-form-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 23%;
+  height: 1px;
+  background-color:rgb(178, 55, 20);
+  opacity: 0.5;
+}
+.contact-form-p {
+  font-size: 14px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.contact-info-title {
+  font-size: 45px;
+}
+.phone-img {
+  max-width: 23px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 0;
+  left: -38px;
+  top: -3px;
+}
+.email-img {
+  max-width: 33px;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+  left: -43px;
+  top: -10px;
+}
+.house-img {
+  max-width: 20px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: -36px;
+  top: -6px;
+}
+.phone-number {
+  position: relative;
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+.email {
+  position: relative;
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+.location {
+  position: relative;
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+.update-info {
+  color: #999;
+  background-color: #1e1f21;
+  border: none;
+  border-radius: 5px;
+  width: 80%;
+  height: 24px;
+}
+
+@media screen and (max-width: 1300px) {
+  .contact-us {
+    display: flex;
+    flex-direction: row;
+  }
+  .form-button {
+    background-color:rgb(178, 55, 20);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 23px;
+    font-weight: 600;
+    padding: 12px 24px;
+
+    width: 50%;
+  }
+  .phone-img {
+    max-width: 23px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    left: -38px;
+    top: -3px;
+  }
+  .email-img {
+    max-width: 33px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    left: -43px;
+    top: -10px;
+  }
+  .house-img {
+    max-width: 20px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: -36px;
+    top: -6px;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .contact-us {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 100%;
+
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+  .form-button {
+    background-color:rgb(178, 55, 20);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 23px;
+    font-weight: 600;
+    padding: 12px 24px;
+
+    width: 100%;
+  }
+  .contact-form {
+    order: 1;
+  }
+  .contact-info-admin {
+    order: 2;
+    margin-top: 40px;
+    width: 100%;
+    margin-right: auto;
+    padding-bottom: 120px;
+    box-sizing: border-box;
+
+    text-align: left;
+  }
+  .contact-info {
+    order: 2;
+    margin-top: 40px;
+    margin-right: auto;
+    width: 100%;
+
+    padding: 0;
+    box-sizing: border-box;
+    padding-bottom: 200px;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 940px) {
+  .contact-us {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+  .form-button {
+    background-color:rgb(178, 55, 20);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 23px;
+    font-weight: 600;
+    padding: 12px 24px;
+
+    width: 100%;
+  }
+  .contact-form {
+    order: 1;
+  }
+  .contact-info {
+    order: 2;
+    margin-top: 40px;
+    width: 100%;
+
+    padding: 0;
+    box-sizing: border-box;
+
+    text-align: left;
+  }
+}

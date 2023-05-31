@@ -1,0 +1,45 @@
+.testimonials-view {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+  }
+  
+  .testimonials-view * {
+    margin: 3px;
+    padding: 3px;
+    font-size: 20px;
+  }
+  
+  
+  
+ 
+  
+  .deletebtn {
+    background-color:rgb(178, 55, 20); /* Green */
+    border: none;
+    color: white;
+    padding: 5px; /* Decrease padding */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px; /* Decrease font size */
+    margin: 2px; /* Decrease margin */
+    cursor: pointer;
+  
+    transition-duration: 0.4s;
+  }
+  
+
+
+  .editbtn{
+    background-color: #000000; /* Green */
+    border: none;
+    color: white;
+    padding: 5px; /* Decrease padding */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px; /* Decrease font size */
+    margin: 2px; /* Decrease margin */
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
